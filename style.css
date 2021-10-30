@@ -1,3 +1,11 @@
+:root {
+  --primary-pale: hsl(225, 100%, 94%);
+  --primary-bright: hsl(245, 75%, 52%);
+  --sec-pale: hsl(225, 100%, 98%);
+  --sec-desaturated: hsl(224, 23%, 55%);
+  --sec-darkblue: hsl(223, 47%, 23%);
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -19,9 +27,25 @@ body {
   width: 85%;
   background-color: #fff;
   border-radius: 25px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .hero {
   border-radius: 25px 25px 0 0;
   max-width: 100%;
+}
+
+.title {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--sec-darkblue);
+}
+
+.description {
+  font-weight: 200;
+  margin-bottom: 1.2rem;
+  color: var(--sec-desaturated);
 }
