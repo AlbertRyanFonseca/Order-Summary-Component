@@ -45,7 +45,14 @@ body {
 }
 
 .description {
-  font-weight: 200;
   margin-bottom: 1.2rem;
+  font-weight: 300;
+  line-height: 1.7rem;
   color: var(--sec-desaturated);
+  white-space: pre-line;
+}
+
+.plan {
+  margin-bottom: 2rem;
+  background-color: var(--sec-pale);
 }
