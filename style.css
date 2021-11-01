@@ -58,7 +58,7 @@ body {
 }
 
 .confirm {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   align-self: center;
   width: 80%;
   height: 50px;
@@ -70,4 +70,11 @@ body {
   background-color: var(--primary-bright);
   color: #fff;
   box-shadow: 2px 25px 10px var(--primary-pale);
+}
+
+.cancel {
+  margin-bottom: 2rem;
+  text-decoration: none;
+  font-weight: 900;
+  color: var(--sec-desaturated);
 }
